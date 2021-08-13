@@ -1,3 +1,24 @@
 .operation-buttons {
-  background-color: orange;
+  background-color: #f5913e;
+}
+
+.number-buttons {
+  background-color: #e0e0e0;
+}
+
+.calculator-buttons {
+  border: 1px solid #bababa;
+  height: 50px;
+}
+
+#CalculatorDisplay {
+  background-color: gray;
+  border: 1px solid #bababa;
+  height: 50px;
+  font-size: 1.5em;
+  color: white;
+}
+
+#CalculatorDisplay::placeholder {
+  color: white;
 }
