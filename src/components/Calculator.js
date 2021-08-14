@@ -23,7 +23,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div id="Calculator" className="main row container w-25 w-md-25 mx-auto my-5">
-        <div className="text-output col-12 px-0"><h3 placeholder="0" id="CalculatorDisplay" className="w-100 text-end">{this.returnValue()}</h3></div>
+        <div className="text-output col-12 px-0"><h3 placeholder="0" id="CalculatorDisplay" className="w-100 text-end mb-0 pt-2 h3">{this.returnValue()}</h3></div>
         <button type="button" onClick={(e) => this.handleButtonClick(e.target.textContent)} className="calculator-buttons col-3 number-buttons">AC</button>
         <button type="button" onClick={(e) => this.handleButtonClick(e.target.textContent)} className="calculator-buttons col-3 number-buttons">+/-</button>
         <button type="button" onClick={(e) => this.handleButtonClick(e.target.textContent)} className="calculator-buttons col-3 number-buttons">%</button>
