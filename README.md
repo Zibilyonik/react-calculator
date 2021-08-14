@@ -10,7 +10,7 @@ Users can interact with the calculator to do basic math operations.
 
 
 ## Screenshot of the page
-TBA
+![image](.github/assets/screenshot.png)
 
 
 ## Live Version
