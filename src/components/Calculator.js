@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [number, setCalculate] = useState(0);
 
   const handleButtonClick = (buttonName) => {
@@ -39,6 +39,6 @@ function Calculator() {
       <button type="button" onClick={(e) => handleButtonClick(e.target.textContent)} className="calculator-buttons col-3 operation-buttons">=</button>
     </div>
   );
-}
+};
 
 export default Calculator;
