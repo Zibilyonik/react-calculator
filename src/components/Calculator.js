@@ -7,7 +7,6 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
-    this.handleButtonClick = this.handleButtonClick.bind(this);
   }
 
   handleButtonClick = (buttonName) => {
