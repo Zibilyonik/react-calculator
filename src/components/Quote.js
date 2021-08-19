@@ -5,6 +5,7 @@ const Quote = () => (
     <h3 className="w-50 mx-auto">
       Impossible? We did a lot of impossible things on this journey.
       I`m tired of hearing that things are impossible or useless. Those words mean nothing to us.
+      -Albert Einstein
     </h3>
   </div>
 );
