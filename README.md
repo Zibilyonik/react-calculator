@@ -1,4 +1,4 @@
-# Leaderboard API
+# React Calculator
 A simple calculator project that's built with React.
 
 
