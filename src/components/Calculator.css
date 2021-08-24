@@ -22,3 +22,11 @@
 #CalculatorDisplay::placeholder {
   color: white;
 }
+
+.title-card {
+  position: absolute;
+}
+
+.main {
+  margin-top: 100px !important;
+}
